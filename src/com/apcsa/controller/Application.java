@@ -92,10 +92,6 @@ public class Application {
         }
     }
     
-    private void admin() {
-    	System.out.println("admin");
-    }
-
     private boolean teacher() {
     	/* Needs:
     	 * Change password (shared with student / admin)
@@ -400,12 +396,6 @@ public class Application {
     		System.out.println("A student or root user is viewing enrollment by course, which is bad. Fix it.");
     		return null;
     	}
-    }
-    
-    
-    
-    private void student() {
-    	System.out.println("student");
     }
 
     /**
