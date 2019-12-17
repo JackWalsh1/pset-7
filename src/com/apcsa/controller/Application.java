@@ -97,6 +97,15 @@ public class Application {
     }
 
     private boolean teacher() {
+    	/* Needs:
+    	 * Change password (shared with student / admin)
+    	 * Logout of account (shared with all)
+    	 * View enrollment by course (shared with admin)
+    	 * Add assignment
+    	 * Delete assignment
+    	 * Enter grade for assignment
+    	 */
+    	
     	System.out.println("Hello, again, " + activeUser.getFirstName() +"!");
     	
     	while (true) {
@@ -397,10 +406,6 @@ public class Application {
     
     private void student() {
     	System.out.println("student");
-    }
-    
-    private void root() {
-    	System.out.println("root");
     }
 
     /**
